@@ -3,9 +3,9 @@ import logo from './../assets/logo.svg'
 
 const Navbar = () =>{
   return (
-    <nav className='max-h-[76px] bg-[#ffffff] drop-shadow-[1px, 2px, 12px, #4D607D 0.8]'>
+    <nav className='max-h-[76px] bg-[#ffffff] wrapper'>
       <div className='flex justify-between items-center'>
-      <div className='flex items-center'>
+      <div className='flex items-center gap-2.5'>
         <img src={logo} alt="image of logo" />
         <h3 className='font-[Poppins] font-bold text-[22.3px]'>My_Tutor</h3>
       </div>
@@ -16,7 +16,7 @@ const Navbar = () =>{
           <li>Events</li>
           <li>Blogs</li>
         </ul>
-        <button>Apply Now</button>
+        <button className='bluebtn font-inter'>Apply Now</button>
       </div>
     </div>
     </nav>

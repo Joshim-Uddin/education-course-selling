@@ -2,9 +2,33 @@
 @import "tailwindcss";
 
 
+@theme{
+  --font-roboto: "Roboto", sans-serif;
+  --font-inter:"Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
 body{
   @apply m-0 p-0 box-border;
 }
 .wrapper{
-  @apply mx-[70px]
+  @apply px-[70px]
+}
+nav{
+  box-shadow: 2px 2px 12px 1px #4D607D14;
+}
+select{
+color: gray;
+}
+#course option{
+  color: black;
+}
+.bluebtn{
+  @apply bg-[#1B99D4] py-[9px] px-5 rounded-[5px] text-white
+}
+.whitebtn{
+  @apply bg-[#ffffff] py-[9px] px-5 rounded-[5px] text-[#272727]
+}
+form{
+  box-shadow: 1px 5px 50px 0 #54637A;
+  padding: 33px 30px;
 }
