@@ -35,3 +35,6 @@ form{
 .applyForm input, select{
 @apply outline-1 rounded-[5px] py-[12.5px] px-3
 }
+.rate{
+  @apply font-bold text-[32px] leading-8 tracking-[0.1px]
+}

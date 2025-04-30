@@ -1,18 +1,42 @@
 import React from 'react';
 import { FiTrendingUp } from "react-icons/fi";
+import { PiBriefcase, PiChalkboardTeacher } from "react-icons/pi";
 
 const Achievement = () => {
     return (
-        <div>
-            <div>
-                <FiTrendingUp />
+        <div className='font-roboto ms-[163px] mr-[149px] flex my-[70px] py-[34px] px-[42px] bg-white shadow-[1px_5px_50px_#54637A1A] rounded-[10px] justify-between items-center'>
+            <div className='flex items-center gap-5'>
+                <div className='h-[58px] w-[58px] rounded-[29px] bg-[#F4F6F9] relative'>
+                <FiTrendingUp className='h-[40px] w-[40px] absolute top-[9px] left-[9px]'/>
+                </div>
+                
                 <div>
-                    <p className="rate">126%</p>
-                    <p className=''>170% Average Salary Hike</p>
+                    <p className="rate text-[#27B94E]">126%</p>
+                    <p className='leading-[22px] tracking-[0.1px]'>170% Average Salary Hike</p>
                 </div>
             </div>
-            <div></div>
-            <div></div>
+            <div className='flex items-center gap-5'>
+                <div className='h-[58px] w-[58px] rounded-[29px] bg-[#F4F6F9] relative'>
+                <PiBriefcase className='h-[40px] w-[40px] absolute top-[9px] left-[9px]' />
+                </div>
+                
+                <div>
+                    <p className="rate text-[#FFA41B]">100+</p>
+                    <p className=''>Job Placments</p>
+                </div>
+            </div>
+            <div className='flex items-center gap-5'>
+                <div className='h-[58px] w-[58px] rounded-[29px] bg-[#F4F6F9] relative'>
+                <PiChalkboardTeacher className='h-[40px] w-[40px] absolute top-[9px] left-[9px]'/>
+                </div>
+                
+                <div>
+                    <p className="rate text-[#D60000]">Live</p>
+                    <p className=''>Interactive Sessionse</p>
+                </div>
+            </div>
+            
+            
         </div>
     );
 };
