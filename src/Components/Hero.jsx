@@ -6,7 +6,7 @@ import heroImage from "./../assets/man-wearing-t-shirt-gesturing.png"
 const Hero = () => {
     return (
         <div className='bg-[#1B99D4] wrapper flex justify-between items-center relative'>
-            <div className='font-roboto text-white flex flex-col justify-start items-start gap-5 max-w-1/3'>
+            <div className='font-roboto text-white flex flex-col justify-start items-start gap-5 max-w-[455px]'>
                 <h6 className='bg-[#3DA8DA] text-[14px] font-medium'>Specialization over generalization</h6>
                 <h1 className='font-bold text-[42px] leading-[47.5px]'>Advanced Data Science 
                 & AI Course</h1>
@@ -30,7 +30,9 @@ const Hero = () => {
                         <option value="HTML">HTML</option>
                         <option value="CSS">CSS</option>
                     </select>
+                    <div>
                     <button className='bluebtn flex items-center gap-[15px] font-roboto mt-11'>Get in Touch <FaArrowRight /></button>
+                    </div>
                     </div>
                 </form>
             </div>
