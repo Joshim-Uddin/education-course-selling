@@ -32,3 +32,6 @@ form{
   box-shadow: 1px 5px 50px 0 #54637A;
   padding: 33px 30px;
 }
+.applyForm input, selecte{
+@apply outline-1 rounded-[5px] py-[12.5px] px-3
+}
