@@ -38,3 +38,14 @@ form{
 .rate{
   @apply font-bold text-[32px] leading-8 tracking-[0.1px]
 }
+.card{
+  box-shadow: 0.91px 4.57px 45.7px 0px #54637A;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  gap: 25px;
+  
+}
