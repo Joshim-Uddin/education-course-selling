@@ -16,7 +16,7 @@ const Navbar = () =>{
           <li>Events</li>
           <li>Blogs</li>
         </ul>
-        <button className='bluebtn font-inter'>Apply Now</button>
+        <button className='bluebtn rounded-[5px] font-inter'>Apply Now</button>
       </div>
     </div>
     </nav>

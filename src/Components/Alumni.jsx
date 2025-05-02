@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { PiHourglassMediumBold } from 'react-icons/pi';
 import { GoArrowRight } from 'react-icons/go';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaArrowRight, FaLinkedin } from 'react-icons/fa';
 import { IoIosTrendingUp } from 'react-icons/io';
 
 
@@ -17,7 +17,7 @@ const Alumni = () => {
         <div className='pt-[70px] pb-[88px] wrapper mx-[63px]'>
                     <h6 className='font-poppins font-semibold leading-[26px] text-center tracking-[1.6px] text-[#1B99D4]'>Our Alumni Placed</h6>
                     <h3 className='text-[32px] font-poppins font-semibold leading-[56px] text-center text-[#231F40] mt-[5px]'>Explore Our Alumni & Connect With Them</h3>
-                    <div className='grid grid-cols-3 gap-[35px] mt-12'>
+                <div className='grid grid-cols-3 gap-[35px] mt-12'>
                         {cardsInfo.map((card, index)=><div className='p-5 bg-white font-poppins alumni-card h-[377.08px] relative' key={index}>
                         <div className='flex items-start justify-between'>
                             <div>
@@ -39,13 +39,14 @@ const Alumni = () => {
                         </div>
                         <div className='flex items-center gap-[10px] mt-[15.39px]'>
                             <FaLinkedin className='text-[#0A66C2]' />
-                            <p className='leading-[28.7px] tracking-[0.5px] text-[#006DD9]'>Read full review</p>
+                            <a href='#' className='leading-[28.7px] tracking-[0.5px] text-[#006DD9]'>Read full review</a>
                         </div>
                         </div>
                         
 
                     </div>)}
-                    </div>
+                </div>
+                <button className='bluebtn font-poppins font-semibold text-[18px] leading-6 flex items-center gap-[10px] rounded-[4px] mt-[86.5px] mx-auto cursor-pointer'>Connect Now <FaArrowRight /></button>
                     
         </div>
     );

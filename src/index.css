@@ -23,7 +23,7 @@ color: gray;
   color: black;
 }
 .bluebtn{
-  @apply bg-[#1B99D4] py-[9px] px-5 rounded-[5px] text-white
+  @apply bg-[#1B99D4] py-[9px] px-5 text-white
 }
 .whitebtn{
   @apply bg-[#ffffff] py-[9px] px-5 rounded-[5px] text-[#272727]
