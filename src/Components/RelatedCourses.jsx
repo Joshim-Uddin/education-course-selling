@@ -8,7 +8,7 @@ const RelatedCourses = () => {
             <h6 className='uppercase font-poppins font-semibold leading-[26px] text-center tracking-[1.6px] text-[#1B99D4]'>RELATED COURSES</h6>
             <h3 className='text-4xl font-roboto font-semibold leading-[100px] text-center'>Why Join this Program ?</h3>
             <div className='grid grid-cols-3 gap-[35px] mt-12'>
-                {cardsInfo.map((card, index)=><div className='px-[30px] pt-[35px] pb-[38px] bg-white card' key={index}>
+                {cardsInfo.map((card, index)=><div className='px-[30px] pt-[35px] pb-[38px] bg-white font-roboto card' key={index}>
                 <div className='bg-[#1B99D4] h-[70px] w-[70px] rounded-[36px] relative'>
                     <PiHourglassMediumBold className='absolute top-[16.44px] left-[14.67px] h-10 w-10 text-white'/>
                 </div>
