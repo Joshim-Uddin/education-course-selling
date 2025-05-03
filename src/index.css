@@ -16,9 +16,7 @@ body{
 nav{
   box-shadow: 2px 2px 12px 1px #4D607D14;
 }
-select{
-color: gray;
-}
+
 #course option{
   color: black;
 }
@@ -32,8 +30,8 @@ form{
   box-shadow: 1px 5px 50px 0 #54637A;
   padding: 33px 30px;
 }
-.applyForm input, select{
-@apply outline-1 rounded-[5px] py-[12.5px] px-3
+.applyForm>input, .applyForm>select{
+@apply outline-1 rounded-[5px] py-[12.5px] px-3 text-gray-500
 }
 .rate{
   @apply font-bold text-[32px] leading-8 tracking-[0.1px]
@@ -51,4 +49,15 @@ form{
 .alumni-card{
   box-shadow: 1px 5px 50px 0px #54637A;
   border-radius: 12px;
+}
+.counseling>input, .counseling>select{
+  padding: 12.5px 0 12.5px 12px;
+  border: 1px solid #E6E9FC;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  color:#727695;
+  line-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
 }

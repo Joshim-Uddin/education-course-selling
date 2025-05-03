@@ -1,5 +1,6 @@
 import Achievement from "./Components/Achievement";
 import Alumni from "./Components/Alumni";
+import Carriculum from "./Components/Carriculum";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import RelatedCourses from "./Components/RelatedCourses";
@@ -12,6 +13,7 @@ return(
 <Achievement />
 <RelatedCourses />
 <Alumni />
+<Carriculum />
 </>
 )
 

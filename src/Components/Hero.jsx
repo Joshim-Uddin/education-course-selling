@@ -25,7 +25,7 @@ const Hero = () => {
                     <input type="text" name="name" id="name" placeholder='Your Name' />
                     <input type="email" name="email" id="email" placeholder='Your email address' />
                     <input type="tel" name="phone" id="phone" placeholder='Your phone number'/>
-                    <select name="course" id="course">
+                    <select name="course" id="course" className='text-[#727695]'>
                         <option value="" disabled selected hidden>Select course</option>
                         <option value="HTML">HTML</option>
                         <option value="CSS">CSS</option>
