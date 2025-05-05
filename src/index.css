@@ -61,3 +61,34 @@ form{
   font-family: 'Roboto', sans-serif;
   margin-top: 30px;
 }
+.couponhead{
+  border-bottom: 1px dashed #D9D9D9;
+}
+
+.coupon::before,
+.coupon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon::before {
+  left: 0;
+  background-image: radial-gradient(
+    circle at 0 45%,
+    #D9D9D9 16px,
+    white 10px
+  );
+}
+
+.coupon::after {
+  right: 0;
+  background-image: radial-gradient(
+    circle at 100% 45%,
+    #D9D9D9 16px,
+    white 10px
+  );
+}
