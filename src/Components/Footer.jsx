@@ -1,8 +1,6 @@
 import React from 'react';
-import { CiLocationOn } from 'react-icons/ci';
-import { FaAngleRight, FaFacebook, FaFacebookF, FaLinkedinIn, FaPhoneAlt, FaPinterestP, FaTwitter } from 'react-icons/fa';
-import { FaAnglesRight, FaLocationPin } from 'react-icons/fa6';
-import { GrLocation } from 'react-icons/gr';
+import { FaFacebookF, FaLinkedinIn, FaPhoneAlt, FaPinterestP, FaTwitter } from 'react-icons/fa';
+import { FaAnglesRight} from 'react-icons/fa6';
 import { MdMailOutline } from 'react-icons/md';
 import { RiUser2Fill } from 'react-icons/ri';
 import { SlLocationPin } from 'react-icons/sl';
