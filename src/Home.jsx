@@ -1,6 +1,7 @@
 import Achievement from "./Components/Achievement";
 import Alumni from "./Components/Alumni";
 import Carriculum from "./Components/Carriculum";
+import Faq from "./Components/Faq";
 import Hero from "./Components/Hero";
 import Mentors from "./Components/Mentors";
 import Navbar from "./Components/Navbar";
@@ -18,6 +19,7 @@ return(
 <Carriculum />
 <Projects />
 <Mentors />
+<Faq />
 </>
 )
 

@@ -92,3 +92,7 @@ form{
     white 10px
   );
 }
+.szh-accordion__item-heading{
+  width: 100%;
+  border: 1px solid #C1C1C1;
+}
