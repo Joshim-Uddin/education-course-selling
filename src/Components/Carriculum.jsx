@@ -1,7 +1,4 @@
 import React from 'react';
-import { GoArrowRight } from 'react-icons/go';
-import { FaArrowRight, FaLinkedin } from 'react-icons/fa';
-import { IoIosTrendingUp } from 'react-icons/io';
 import { FiDownload } from 'react-icons/fi';
 
 
