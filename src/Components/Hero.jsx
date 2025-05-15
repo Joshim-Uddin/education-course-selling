@@ -1,7 +1,6 @@
 import React from 'react';
 import { FiDownload } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa6";
-import heroImage from "./../assets/man-wearing-t-shirt-gesturing.png"
 
 const Hero = () => {
     return (
@@ -15,7 +14,7 @@ const Hero = () => {
                 <button className='whitebtn flex items-center gap-[5px] mt-[17px]'><FiDownload/>Download Brochure</button>
             </div>
             <div className='absolute bottom-0 left-1/4'>
-                <img src={heroImage} alt="image" className='max-h-[518px]' />
+                <img src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1747271839/man-wearing-t-shirt-gesturing_xiwkfj.png" alt="image" className='max-h-[518px]' />
             </div>
             <div className='bg-white rounded-[10px] mt-[50px] mb-[45px]'>
                 <form action="" className='applyForm'>
