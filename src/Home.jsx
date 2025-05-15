@@ -13,7 +13,7 @@ const Home =()=>{
 return(
 <>
 <Navbar />
-<Hero />
+{/* <Hero />
 <Achievement />
 <RelatedCourses />
 <Alumni />
@@ -21,7 +21,7 @@ return(
 <Projects />
 <Mentors />
 <Faq />
-<Footer />
+<Footer /> */}
 </>
 )
 

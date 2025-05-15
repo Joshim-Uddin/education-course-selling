@@ -23,6 +23,9 @@ nav{
 .bluebtn{
   @apply bg-[#1B99D4] py-[9px] px-5 text-white cursor-pointer
 }
+.bluebtnmini{
+  @apply bg-[#1B99D4] py-[9px] px-2 text-white cursor-pointer
+}
 .whitebtn{
   @apply bg-[#ffffff] py-[9px] px-5 rounded-[5px] text-[#272727] cursor-pointer
 }

@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Hero = () => {
     return (
-        <div className='bg-[#1B99D4] wrapper flex justify-between items-center relative'>
+        <div className='bg-[#1B99D4] wrapper flex justify-between items-center relative md:pt-[100px]'>
             <div className='font-roboto text-white flex flex-col justify-start items-start gap-5 max-w-[455px]'>
                 <h6 className='bg-[#3DA8DA] text-[14px] font-medium py-[7px] px-2 rounded-[5px]'>Specialization over generalization</h6>
                 <h1 className='font-bold text-[42px] leading-[47.5px]'>Advanced Data Science 
