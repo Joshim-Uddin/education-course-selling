@@ -11,8 +11,9 @@ body{
   @apply m-0 p-0 box-border;
 }
 .wrapper{
-  @apply px-[70px]
+  @apply min-[1024px]:px-[70px] min-[640px]:px-3
 }
+
 nav{
   box-shadow: 2px 2px 12px 1px #4D607D14;
 }

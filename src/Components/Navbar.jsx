@@ -7,7 +7,7 @@ const Navbar = () =>{
   console.log(clicked)
   return (
     <>
-    <nav className='max-h-[76px] bg-[#ffffff] wrapper md:fixed w-full z-40'>
+    <nav className='sm:block hidden max-h-[76px] bg-[#ffffff] wrapper md:fixed w-full z-40'>
       <div className='flex justify-between items-center'>
       <a href='#' className='flex items-center gap-2.5'>
         <div className='bg-[#1B99D4] h-[41.41px] w-[42.6px] rounded-full relative'>
@@ -16,7 +16,7 @@ const Navbar = () =>{
         <h3 className='font-[Poppins] font-bold text-[22.3px]'>My_Tutor</h3>
       </a>
       <div className='font-[Inter] text-base leading-6 font-[500] flex items-center gap-[35px]'>
-        <ul className='flex items-center gap-[45px] py-[26px]'>
+        <ul className='flex items-center min-[640px]:gap-4 min-[768px]:gap-[45px] py-[26px]'>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Courses</a></li>
           <li><a href="#">Events</a></li>
