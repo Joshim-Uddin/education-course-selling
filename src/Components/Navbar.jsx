@@ -35,17 +35,19 @@ const Navbar = () =>{
         <h3 className='font-[Poppins] font-bold text-[15.3px]'>My_Tutor</h3>
       </a>
       <FaBarsStaggered onClick={()=>setClicked(!clicked)}/>
-      <div className={clicked?'font-[Inter] text-base leading-6 font-[500] flex flex-col gap-2 items-center absolute top-7 left-0 bg-amber-400 p-2 w-full transition-transform':'font-[Inter] text-base leading-6 font-[500] flex flex-col gap-2 items-center absolute -top-52 bg-amber-400 p-2 w-full'}>
+     
+    </div>
+    </nav>
+    <div className={clicked?'font-[Inter] text-sm leading-6 gap-2 items-center bg-amber-400 p-2 w-full transition-transform min-[640px]:hidden':'absolute -top-52'}>
         <ul className='flex flex-col items-center gap-[15px]'>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Courses</a></li>
           <li><a href="#">Events</a></li>
           <li><a href="#">Blogs</a></li>
+          <li><button className='bluebtnmini text-sm rounded-[5px] font-inter cursor-pointer'>Apply Now</button></li>
         </ul>
-        <button className='bluebtnmini rounded-[5px] font-inter cursor-pointer'>Apply Now</button>
+        
       </div>
-    </div>
-    </nav>
     </>
 
   )

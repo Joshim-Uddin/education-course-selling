@@ -13,8 +13,8 @@ const Home =()=>{
 return(
 <>
 <Navbar />
-{/* <Hero />
-<Achievement />
+<Hero />
+{/* <Achievement />
 <RelatedCourses />
 <Alumni />
 <Carriculum />
