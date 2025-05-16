@@ -26,7 +26,7 @@ const Navbar = () =>{
       </div>
     </div>
     </nav>
-    <nav className='max-h-[76px] bg-[#ffffff] z-40 sm:hidden'>
+    <nav className='bg-[#ffffff] z-40 py-2 sm:hidden'>
       <div className='flex justify-between items-center px-2'>
       <a href='#' className='flex items-center gap-2.5'>
         <div className='bg-[#1B99D4] h-[25.41px] w-[26.6px] rounded-full relative'>
@@ -38,7 +38,7 @@ const Navbar = () =>{
      
     </div>
     </nav>
-    <div className={clicked?'font-[Inter] text-sm leading-6 gap-2 items-center bg-amber-400 p-2 w-full transition-transform min-[640px]:hidden':'absolute -top-52'}>
+    <div className={clicked?'font-[Inter] text-sm leading-6 gap-2 items-center bg-amber-400 p-2 w-full transition-opacity ease-linear opacity-100 duration-500 min-[640px]:hidden':'absolute -top-52'}>
         <ul className='flex flex-col items-center gap-[15px]'>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Courses</a></li>

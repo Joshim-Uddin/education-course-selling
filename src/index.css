@@ -11,7 +11,7 @@ body{
   @apply m-0 p-0 box-border;
 }
 .wrapper{
-  @apply min-[1024px]:px-[70px] min-[640px]:px-3
+  @apply min-[1024px]:px-[70px] min-[640px]:px-3 px-2
 }
 
 nav{
@@ -34,7 +34,7 @@ form{
   box-shadow: 1px 5px 50px 0 #54637A;
   padding: 33px 30px;
 }
-.applyForm>input, .applyForm>select{
+.applyForm input, .applyForm select{
 @apply outline-1 rounded-[5px] py-[12.5px] px-3 text-gray-500
 }
 .rate{

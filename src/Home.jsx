@@ -14,8 +14,8 @@ return(
 <>
 <Navbar />
 <Hero />
-{/* <Achievement />
-<RelatedCourses />
+<Achievement />
+{/* <RelatedCourses />
 <Alumni />
 <Carriculum />
 <Projects />

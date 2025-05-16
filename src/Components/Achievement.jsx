@@ -4,7 +4,7 @@ import { PiBriefcase, PiChalkboardTeacher } from "react-icons/pi";
 
 const Achievement = () => {
     return (
-        <div className='font-roboto ms-[163px] mr-[149px] flex my-[70px] py-[34px] px-[42px] bg-white shadow-[1px_5px_50px_#54637A1A] rounded-[10px] justify-between items-center'>
+        <div className='font-roboto ms-0 mr-0 sm:ms-[50px] sm:mr-[40px] lg:ms-[163px] lg:mr-[149px] flex flex-col gap-3 sm:gap-0 sm:flex-row my-5 sm:my-[45px] md:my-[70px] py-[34px] px-[42px] bg-white shadow-[1px_5px_50px_#54637A1A] rounded-[10px] sm:justify-between sm:items-center'>
             <div className='flex items-center gap-5'>
                 <div className='h-[58px] w-[58px] rounded-[29px] bg-[#F4F6F9] relative'>
                 <FiTrendingUp className='h-[40px] w-[40px] absolute top-[9px] left-[9px]'/>
