@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { PiHourglassMediumBold } from 'react-icons/pi';
 import { GoArrowRight } from 'react-icons/go';
 import { FaArrowRight, FaLinkedin } from 'react-icons/fa';
 import { IoIosTrendingUp } from 'react-icons/io';
@@ -14,28 +13,28 @@ const cardsInfo = [
 const Alumni = () => {
     
     return (
-        <div className='pt-[70px] pb-[88px] wrapper mx-[63px]'>
+        <div className='pt-5 pb-6 md:pt-[70px] md:pb-[88px] wrapper mx-4 md:mx-[40px] lg:mx-[63px]'>
                     <h6 className='font-poppins font-semibold leading-[26px] text-center tracking-[1.6px] text-[#1B99D4]'>Our Alumni Placed</h6>
-                    <h3 className='text-[32px] font-poppins font-semibold leading-[56px] text-center text-[#231F40] mt-[5px]'>Explore Our Alumni & Connect With Them</h3>
-                <div className='grid grid-cols-3 gap-[35px] mt-12'>
+                    <h3 className='text-2xl md:text-[32px] font-poppins font-semibold leading-10 md:leading-[56px] text-center text-[#231F40] mt-[5px]'>Explore Our Alumni & Connect With Them</h3>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-[35px] mt-12'>
                         {cardsInfo.map((card, index)=><div className='p-5 bg-white font-poppins alumni-card h-[377.08px] relative' key={index}>
                         <div className='flex items-start justify-between'>
                             <div>
                             <img src={card.image} alt="profile photo" className='h-[72px] w-[72px] rounded-[36px]' />
-                            <p className='font-semibold text-[20px] leading-8 tracking-[0.1px]'>{card.name}</p>
-                            <p>{card.designation}</p>
+                            <p className='font-semibold text-lg md:text-[20px] leading-5 md:leading-8 tracking-[0.1px] min-w-[155px] sm:min-w-full'>{card.name}</p>
+                            <p className='text-[15px] md:text-base min-w-[160px] sm:min-w-full'>{card.designation}</p>
                             </div>
-                            <div className='flex items-center gap-[7.28px] text-[14px] font-semibold text-[#43A55D] border-[0.73px] py-[2.18px] px-[10.92px] rounded-[2px]'>
+                            <div className='flex items-center gap-[7.28px] text-[14px] font-semibold text-[#43A55D] border-[0.73px] py-[2.18px] px-2 md:px-[10.92px] rounded-[2px]'>
                                 <IoIosTrendingUp />
-                                <p>{card.rate}% Hike</p>
+                                <p className='max-w-10 sm:max-w-full'>{card.rate}% Hike</p>
                             </div>
                         </div>
-                        <p className='leading-6 mt-1'>{card.text}</p>
+                        <p className='text-sm md:text-base leading-6 mt-1'>{card.text}</p>
                         <div className="absolute bottom-[17px]">
                         <div className='flex items-center gap-[5px]'>
-                            <img src={card.prevstation} alt="" className='max-h-[26px]' />
+                            <img src={card.prevstation} alt="" className='max-h-5 md:max-h-[26px]' />
                             <GoArrowRight />
-                            <img src={card.present} alt="" className='max-h-[26px]'/>
+                            <img src={card.present} alt="" className='max-h-5 md:max-h-[26px]'/>
                         </div>
                         <div className='flex items-center gap-[10px] mt-[15.39px]'>
                             <FaLinkedin className='text-[#0A66C2]' />

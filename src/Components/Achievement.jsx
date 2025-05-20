@@ -1,10 +1,39 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
 import React from 'react';
 import { FiTrendingUp } from "react-icons/fi";
 import { PiBriefcase, PiChalkboardTeacher } from "react-icons/pi";
 
+gsap.registerPlugin(useGSAP, ScrollTrigger)
+
 const Achievement = () => {
+    useGSAP(()=>{
+        let tl = gsap.timeline({
+    // yes, we can add it to an entire timeline!
+    scrollTrigger: {
+        trigger: '.achievment',
+        pin: true, // pin the trigger element while active
+        start: '-200 120', // when the top of the trigger hits the top of the viewport
+        end: '200 bottom', // end after scrolling 500px beyond the start
+        scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+        markers: true,
+        snap: {
+            snapTo: 'labels', // snap to the closest label in the timeline
+            duration: { min: 0.2, max: 3 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+            delay: 0, // wait 0.2 seconds from the last scroll event before doing the snapping
+            ease: 'power1.inOut' // the ease of the snap animation ("power3" by default)
+        }
+    }
+});
+
+// add animations and labels to the timeline
+tl.from('.achievment', 
+    { y:-50, scale: 0.3, autoAlpha: 0 })
+
+    })
     return (
-        <div className='font-roboto ms-0 mr-0 sm:ms-[50px] sm:mr-[40px] lg:ms-[163px] lg:mr-[149px] flex flex-col gap-3 sm:gap-0 sm:flex-row my-5 sm:my-[45px] md:my-[70px] py-[34px] px-[42px] bg-white shadow-[1px_5px_50px_#54637A1A] rounded-[10px] sm:justify-between sm:items-center'>
+        <div className='achievment font-roboto ms-0 mr-0 sm:ms-[50px] sm:mr-[40px] lg:ms-[163px] lg:mr-[149px] flex flex-col gap-3 sm:gap-0 sm:flex-row my-5 sm:my-[45px] md:my-[70px] py-[34px] px-[42px] bg-white shadow-[1px_5px_50px_#54637A1A] rounded-[10px] sm:justify-between sm:items-center'>
             <div className='flex items-center gap-5'>
                 <div className='h-[58px] w-[58px] rounded-[29px] bg-[#F4F6F9] relative'>
                 <FiTrendingUp className='h-[40px] w-[40px] absolute top-[9px] left-[9px]'/>

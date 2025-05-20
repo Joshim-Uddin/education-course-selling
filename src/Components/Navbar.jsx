@@ -1,10 +1,23 @@
 import React, { useState } from 'react'
 import { FaBarsStaggered } from 'react-icons/fa6'
 import { RiUser2Fill } from 'react-icons/ri'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+
+gsap.registerPlugin(useGSAP)
 
 const Navbar = () =>{
   const [clicked, setClicked] = useState(false)
   console.log(clicked)
+
+  // useGSAP(()=>{
+  //   const collapseTl = gsap.timeline()
+  //   collapseTl.to("collapse", {
+  //     opacity: 0,
+  //     y:-30,
+  //   }, "+=0.8")
+  // })
+
   return (
     <>
     <nav className='sm:block hidden max-h-[76px] bg-[#ffffff] wrapper md:fixed w-full z-40'>
@@ -38,7 +51,7 @@ const Navbar = () =>{
      
     </div>
     </nav>
-    <div className={clicked?'font-[Inter] text-sm leading-6 gap-2 items-center bg-amber-400 p-2 w-full transition-opacity ease-linear opacity-100 duration-500 min-[640px]:hidden':'absolute -top-52'}>
+    <div className={clicked?'collapse font-[Inter] text-sm leading-6 gap-2 items-center bg-amber-400 p-2 w-full transition-opacity ease-linear opacity-100 duration-500 min-[640px]:hidden':'absolute -top-52'}>
         <ul className='flex flex-col items-center gap-[15px]'>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Courses</a></li>
