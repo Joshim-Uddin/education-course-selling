@@ -32,9 +32,9 @@ const Alumni = () => {
                         <p className='text-sm md:text-base leading-6 mt-1'>{card.text}</p>
                         <div className="absolute bottom-[17px]">
                         <div className='flex items-center gap-[5px]'>
-                            <img src={card.prevstation} alt="" className='max-h-5 md:max-h-[26px]' />
+                            <img src={card.prevstation} alt="" className='max-h-5 max-w-[100px] md:max-h-[26px]' />
                             <GoArrowRight />
-                            <img src={card.present} alt="" className='max-h-5 md:max-h-[26px]'/>
+                            <img src={card.present} alt="" className='max-h-5 max-w-[100px] md:max-h-[26px]'/>
                         </div>
                         <div className='flex items-center gap-[10px] mt-[15.39px]'>
                             <FaLinkedin className='text-[#0A66C2]' />
