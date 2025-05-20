@@ -17,8 +17,8 @@ return(
 <Achievement />
 <RelatedCourses />
 <Alumni />
-{/* <Carriculum />
-<Projects />
+<Carriculum />
+{/* <Projects />
 <Mentors />
 <Faq />
 <Footer /> */}
