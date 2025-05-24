@@ -20,8 +20,8 @@ return(
 <Carriculum />
 <Projects />
 <Mentors />
-{/* <Faq />
-<Footer /> */}
+<Faq />
+{/* <Footer /> */}
 </>
 )
 
