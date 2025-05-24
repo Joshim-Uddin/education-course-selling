@@ -84,7 +84,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className='cohort font-roboto mx-[268px] mt-10 md:mt-[83px]'>
+            <div className='cohort font-roboto mx-3 md:mx-[268px] mt-10 md:mt-[83px]'>
                 <h3 className='font-semibold text-2xl md:text-4xl leading-[43px] text-center mb-[25px]'>Next Cohort Details</h3>
                <div className='border-[1px] border-[#D9D9D9] rounded-[8px] coupon relative bg-[rgba(248,246,255, 0.16)]'>
                <div className='flex flex-col md:flex-row justify-between items-center pt-[19px] pb-[31px] px-2 md:px-10 couponhead'>

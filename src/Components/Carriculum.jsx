@@ -25,7 +25,7 @@ accumsan lacus vel facilisis.</p>
                         </div>
                     </div>
                     <div className='font-inter bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.7)] px-2 md:px-5 pb-[54px] pt-[63px] rounded-[8px] min-w-[300px] md:min-w-[360px] border-b-[4px] border-[#1B99D4]'>
-                        <h6 className='text-lg text-center text-[#6F6B80] mb-[63px]'>Make Your Design Professional</h6>
+                        <h6 className='text-lg text-center text-[#6F6B80] mb-5 md:mb-[63px]'>Make Your Design Professional</h6>
                         <div className='flex flex-col counseling'>
                             <input type="text" placeholder='Enter Full Name'/><input type="email" placeholder='Enter email address' />
                             <input type="tel" name="phone" id="phone" placeholder='Enter phone number' />
