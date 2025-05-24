@@ -9,7 +9,7 @@ const Mentors = () => {
                             <h3 className='text-2xl md:text-[32px] font-poppins font-semibold leading-8 md:leading-[42px] text-center text-[#231F40] mt-[5px] max-w-[922px] mx-auto'>We have Industry Experts as Mentor who guide you with Career Planning & Interview Preparation</h3>
                         
                             
-                                <div className='flex flex-col md:flex-row items-center justify-center gap-[53px] mt-[57px]'>
+                                <div className='flex flex-col md:flex-row items-center justify-center lg:gap-[53px] 2xl:gap-[80px] gap-4 mt-[57px]'>
                                     {mentors.map((mentor, index)=><div key={index} className='max-w-[316px] bg-white rounded-[10px] h-[414px] relative shadow-[1px_10px_20px_0px_rgba(0,0,0,0.5)]'>
                                         <img src={mentor.image} alt={`mentor ${index+1} image`} className='rounded-t-[10px] h-[270px] w-[316px]' />
                                         <div className='pt-4 ps-[15px] pr-3 pb-[15px]'>

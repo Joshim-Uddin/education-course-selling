@@ -13,10 +13,10 @@ const cardsInfo = [
 const Alumni = () => {
     
     return (
-        <div className='pt-5 pb-8 md:pt-[70px] md:pb-[88px] wrapper mx-4 md:mx-[40px] lg:mx-[63px]'>
+        <div className='pt-5 pb-8 md:pt-[70px] md:pb-[88px] wrapper mx-4 md:mx-[40px] xl:mx-[63px]'>
                     <h6 className='font-poppins font-semibold leading-[26px] text-center tracking-[1.6px] text-[#1B99D4]'>Our Alumni Placed</h6>
                     <h3 className='text-2xl md:text-[32px] font-poppins font-semibold leading-10 md:leading-[56px] text-center text-[#231F40] mt-[5px]'>Explore Our Alumni & Connect With Them</h3>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-[35px] mt-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-[23px] xl:gap-[50px] mt-12'>
                         {cardsInfo.map((card, index)=><div className='p-5 bg-white font-poppins alumni-card h-[377.08px] relative' key={index}>
                         <div className='flex items-start justify-between'>
                             <div>

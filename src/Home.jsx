@@ -21,7 +21,7 @@ return(
 <Projects />
 <Mentors />
 <Faq />
-{/* <Footer /> */}
+<Footer />
 </>
 )
 

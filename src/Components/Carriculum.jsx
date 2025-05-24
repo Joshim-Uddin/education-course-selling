@@ -12,8 +12,8 @@ const Carriculum = () => {
         <div className='pb-12 md:pb-[88px] wrapper'>
                     <h6 className='font-poppins font-semibold leading-[26px] text-center tracking-[1.6px] text-[#1B99D4]'>A Roadmap For Sucess</h6>
                     <h3 className='text-2xl md:text-[32px] font-poppins font-semibold leading-8 md:leading-[56px] text-center text-[#231F40] mt-[5px]'>Our Comprehensive curriculum, Designed for professionals</h3>
-                <div className='flex flex-col md:flex-row gap-[75px] mt-12'>
-                    <div className='max-w-[856px] pt-[15px]'>
+                <div className='flex flex-col lg:flex-row md:gap-[30px] lg:gap-[55px] xl:gap-[75px] mt-12 min-[1820px]:justify-between'>
+                    <div className='min-[1024px]:max-w-[530px] min-[1280px]:max-w-[856px] pt-[15px]'>
                         <h6 className='font-roboto font-bold text-2xl leading-9'>Course Description</h6>
                         <p className='font-roboto text-lg leading-[135%] mt-[26px] mb-[31px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -24,7 +24,7 @@ accumsan lacus vel facilisis.</p>
                             </select>)}
                         </div>
                     </div>
-                    <div className='font-inter bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.7)] px-2 md:px-5 pb-[54px] pt-[63px] rounded-[8px] min-w-[300px] md:min-w-[360px] border-b-[4px] border-[#1B99D4]'>
+                    <div className='font-inter bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.7)] px-2 md:px-5 pb-[54px] pt-[63px] rounded-[8px] min-w-[300px] md:min-w-[360px] min-[1921px]:min-w-[540px] border-b-[4px] border-[#1B99D4]'>
                         <h6 className='text-lg text-center text-[#6F6B80] mb-5 md:mb-[63px]'>Make Your Design Professional</h6>
                         <div className='flex flex-col counseling'>
                             <input type="text" placeholder='Enter Full Name'/><input type="email" placeholder='Enter email address' />

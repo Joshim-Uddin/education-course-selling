@@ -64,8 +64,8 @@ const Hero = () => {
     })
 
     return (
-        <div className='hero bg-[#1B99D4] wrapper min-[768px]:flex justify-between items-center relative pt-5 pb-5 sm:pb-0 sm:pt-16 md:pt-[100px]'>
-            <div className='font-roboto text-white flex flex-col justify-start items-start gap-5 max-w-[455px]'>
+        <div className='hero bg-[#1B99D4] wrapper min-[768px]:flex justify-between items-center  md:gap-3 relative pt-5 pb-5 sm:pb-0 sm:pt-16 lg:pt-[100px]'>
+            <div className='font-roboto text-white flex flex-col justify-start items-start gap-5 max-w-[455px] min-[1921px]:min-w-3/5'>
                 <h6 className='bg-[#3DA8DA] text-[14px] font-medium py-[7px] px-2 rounded-[5px] text-center mx-auto sm:mx-0'>Specialization over generalization</h6>
                 <h1 id='heading' className='font-bold text-[28px] sm:text-[32px] md:text-[42px] text-center sm:text-left leading-[32.5px] sm:leading-[35.5px] md:leading-[47.5px] heading'>Advanced Data Science 
                 & AI Course</h1>
@@ -73,7 +73,7 @@ const Hero = () => {
                 <h4 className='heading2 text-[22px] sm:text-2xl md:text-[28px] leading-6 font-normal'>Live  Interactive Classes</h4>
                 <button className='whitebtn text-sm sm:text-base flex items-center gap-[5px] mt-[17px]'><FiDownload/>Download Brochure</button>
             </div>
-            <div className='absolute max-[640px]:hidden bottom-0 left-1/4'>
+            <div className='absolute max-[1280px]:hidden bottom-0 left-1/4 2xl:left-1/3'>
                 <img src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1747271839/man-wearing-t-shirt-gesturing_xiwkfj.png" alt="image" className='max-h-[518px] heroImage' />
             </div>
             <div className='heroForm bg-white rounded-[10px] mt-5 mb-5 sm:mt-[50px] sm:mb-[45px]'>

@@ -7,8 +7,8 @@ import { SlLocationPin } from 'react-icons/sl';
 
 const Footer = () => {
     return (
-        <div className='wrapper bg-[#1B99D4] pt-[115px] pb-5 text-white'>
-            <div className='grid grid-cols-4 justify-between gap-[83px] pb-[25.53px]'>
+        <div className='wrapper bg-[#1B99D4] pt-[85px] md:pt-[115px] pb-5 text-white'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-between gap-[43px] md:gap-[83px] pb-[25.53px]'>
                 <div>
                     <a href='#' className='flex items-center gap-[9.1px] mb-9'>
                         <div className='bg-white h-[41.41px] w-[42.6px] rounded-full relative'>
